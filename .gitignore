@@ -30,3 +30,31 @@
 *.exe
 *.out
 *.app
+
+# LaTeX auxiliary files
+*.aux
+*.log
+*.nav
+*.out
+*.snm
+*.synctex.gz
+*.toc
+*.vrb
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.dvi
+*.xdv
+
+# Editor backup files
+*~
+*.bak
+*.swp
+*.swo
+
+# macOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
