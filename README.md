@@ -1,13 +1,12 @@
-# Battery Management System Intelligent (BMSi) 
-The BMSi is a open source smart battery management system with the goal of being reliable and affordable with the ability to communicate over USB with robotic systems using ROS or computer with serial terminal, providing all the valuable data needed about the battery.
+# BMSi-Hardware
+Contains the hardware design of the BMSi board.
 
-With the goal of affordability and ease o use the main component is an ESP32, using Arduino Language (C++). The complex part of this project (BQ76942) was simplified with the development of a library, and further development will be done on this to achieve full abstraction on the configuration and use of this IC, making it even more simple to use.
+This is a work in progress, as development still being done.
+No guarantee for functionality or safety! this design is experimental and tests are still being done.
+The firmware is available in the main [BMSi](https://github.com/MrSerafim/BMSi) git.
 
-The hardware designs are found under [BMSi-Hardware](https://github.com/MrSerafim/BMSi-Hardware).
+This project requires soldering of many fine pitched parts including QFN.
 
-Updates require matching firmware and board versions!
+### LICENSE NOTE: The root license applies to all subfolders NOT containing their own LICENSE file. If a subfolder contains a different LICENSE file this different license applies to all subfolders below this LICENSE file.
 
-### Copyright notice:
-Some parts of this software may contain third party libraries and source code licensed under different terms.
-The license applying to these files is found in the header of the file.
-For all other parts the LICENSE file applies.
+**If you want to sell any hardware of this project yourself i would kindly ask you to get in contact with me ([mail](mailto:luissouzaserafim@gmail.com))**
